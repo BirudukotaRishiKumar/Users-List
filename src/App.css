@@ -9,10 +9,26 @@
   list-style-type: none;
   padding: 0;
 }
-
+.cup {
+  width: 35px;
+  padding-left: 10px;
+}
 .title {
   font-family: 'Roboto';
   font-size: 32px;
   color: #183b56;
   margin-bottom: 30px;
+}
+.input {
+  height: 30px;
+  width: 25%;
+}
+@media screen and (max-width: 768px) {
+  .input {
+    height: 30px;
+    width: 60%;
+  }
+  .title{
+    font-size: 28px;      
+  }
 }
